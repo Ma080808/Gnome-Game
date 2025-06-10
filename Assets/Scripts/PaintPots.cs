@@ -14,7 +14,6 @@ public class PaintPots : MonoBehaviour
     {
         playerInput = FindFirstObjectByType<PlayerInput>();
         gameUIController = FindFirstObjectByType<GameUIController>();
-        Debug.Log("Found: " + playerInput);
         interactIcon.enabled = false;
     }
 

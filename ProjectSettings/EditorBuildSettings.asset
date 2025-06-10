@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gnome_05.unity
     guid: 416e9963399ae024eab2919c619b5d1c
+  - enabled: 1
+    path: Assets/Scenes/z_GoodEnding.unity
+    guid: a3655f25a5918f54880a4644e5f726a3
+  - enabled: 1
+    path: Assets/Scenes/z_BadEnding.unity
+    guid: 7050294dcc7e7d64683aac1b181fa88a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

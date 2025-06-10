@@ -131,8 +131,17 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
-        Debug.Log("Gnome has died");
         myRigibody.Sleep();
         isDead = true;
+    }
+
+    public void ReTry(Transform checkpoint)
+    {
+        moveInput = 0f;
+        transform.position = checkpoint.position;
+        myRigibody.linearVelocity = Vector3.zero;
+        myRigibody.angularVelocity = 0f;
+        myRigibody.WakeUp();
+        isDead = false;
     }
 }
