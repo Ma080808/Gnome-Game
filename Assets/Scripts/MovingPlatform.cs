@@ -55,7 +55,6 @@ public class MovingPlatform : MonoBehaviour
 
     public void SlowDown(float slowPercentage)
     {
-        StopAllCoroutines();
         platformAnimator.SetTrigger("frozen");
         StartCoroutine(SlowDownCoroutine(slowPercentage));
     }
